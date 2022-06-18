@@ -1,22 +1,17 @@
 .contact {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  width: 80%;
-  background-color: #eca3a3;
-  padding: 30px;
-  justify-content: space-between;
+  margin-top: 20px;
+  border: 1px solid gray;
   border-radius: 10px;
-  margin-bottom: 20px;
+  padding: 10px;
 }
-
-.img-contact {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+.contact img {
+  width: 20%;
+  border-radius: 30%;
+  margin-left: 20px;
 }
-
-.contact-info {
+.item {
+  width: 70%;
   text-align: center;
-  flex-basis: 80%;
 }
