@@ -4,7 +4,7 @@ import React from "react";
 
 const Contact = ({ data }) => {
   return (
-    <div style={{ display: "flex", flexDirection: "row", backgroundColor: "blue", borderRadius: "10px", width: "30%", height: "auto", margin: "0 auto", marginBottom: "20px" }}>
+    <div style={{ display: "flex", flexDirection: "row", backgroundColor: "yellow", borderRadius: "10px", width: "30%", height: "auto", margin: "0 auto", marginBottom: "20px" }}>
       <div style={{ width: "50%", display: "flex", verticalAlign: "middle", alignItems: "center", justifyContent: "center" }}>
         <img src={data.photo} alt="" style={{ borderRadius: "50%", width: "40%" }} />
       </div>
