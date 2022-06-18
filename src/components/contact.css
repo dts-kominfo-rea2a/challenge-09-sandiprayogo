@@ -1,0 +1,22 @@
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
+  background-color: #eca3a3;
+  padding: 30px;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.img-contact {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.contact-info {
+  text-align: center;
+  flex-basis: 80%;
+}

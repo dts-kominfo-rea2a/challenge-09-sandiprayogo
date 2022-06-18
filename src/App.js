@@ -1,22 +1,17 @@
 import "./App.css";
-
+import Header from "../src/components/Header.js";
+import Contact from "../src/components/Contact";
 // Uncomment untuk memuat daftar kontak
 import contacts from "./data/contacts.json";
-import Contact from "./components/Contact";
-import Header from "./components/Header";
 
 const App = () => {
   // Masukkan Header dan Contact ke dalam div App
-
   return (
-    <div className="App" style={{ flexDirection: "column" }}>
+    <div className="App">
       <Header />
-      <Contact data={contacts[0]} />
-      <Contact data={contacts[1]} />
-      <Contact data={contacts[2]} />
-      <Contact data={contacts[3]} />
-      <Contact data={contacts[4]} />
-      <Contact data={contacts[5]} />
+      {contacts.map((contact, i) => {
+        return <Contact key={i} data={contact} />;
+      })}
     </div>
   );
 };
