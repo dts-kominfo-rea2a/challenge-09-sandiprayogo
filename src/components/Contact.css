@@ -1,0 +1,31 @@
+.card{
+    background-color: #f07272;
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 20px;
+    width: 30%;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    gap: 6em;
+    text-align: center;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-content h3{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.card-content p{
+    margin-top: -10px;
+}
