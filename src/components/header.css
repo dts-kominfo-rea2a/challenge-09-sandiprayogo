@@ -1,30 +1,16 @@
 .header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  min-width: 100vh;
-  margin: 20px auto;
-  padding: 0;
-}
-
-.header h1 {
-  font-size: 3em;
-  color: greenyellow;
-  text-align: center;
-  margin-bottom: -20px;
-}
-
-.header h6 {
-  font-size: 1em;
-  color: greenyellow;
-  text-align: center;
-}
-
-.garis {
-  color: pink;
-  text-align: center;
-  border-bottom: 2px solid greenyellow;
-  width: 100%;
-  border-style: dotted;
-}
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid white;
+    position: sticky;
+    top: 0px;
+    margin-bottom: 25px;
+  }
+  
+  .title {
+    color: red;
+  }
+  
+  .subtitle {
+    color: grey;
+  }
