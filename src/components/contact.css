@@ -1,9 +1,9 @@
 .card {
-  background-color: red;
+  background-color: salmon;
   padding: 20px;
   margin: 10px auto;
   border-radius: 20px;
-  width: 30%;
+  width: 50%;
 }
 
 .card-body {
