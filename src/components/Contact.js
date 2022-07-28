@@ -1,16 +1,22 @@
 // Terima props lalu tampilkan dalam Contact component
 // Kalian bisa membuat CSS sendiri di src/components/Contact.css
 import React from "react";
-import '../components/Contact.css'
+import "./Contact.css";
 
 const Contact = ({ data }) => {
   return (
-    <div className="contact">
-      <img src={data.photo} alt="gambar profil" />
-      <div className="item">
-        <h2>{data.name}</h2>
-        <p>{data.phone}</p>
-        <p>{data.email}</p>
+    <div className="card">
+      <div className="card-body">
+        <img
+          src={data.photo}
+          alt="ganmbar"
+          style={{ width: "30%", borderRadius: "50%" }}
+        />
+        <div className="card-content">
+          <h3>{data.name}</h3>
+          <p>{data.phone}</p>
+          <p>{data.email}</p>
+        </div>
       </div>
     </div>
   );
